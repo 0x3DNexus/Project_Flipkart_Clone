@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #dcdad7;
+    height: 100%;
+    width: 100%;
+}
+
+.navbar{
+    background-color: whitesmoke;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon{
+    color: black;
+    font-size: 20px;
+}
+
+.logo{
+    background-image: url(/images/flipkart_logo.png);
+    background-size: cover;
+    height: 40px;
+    width: 150px;
+}
+
+.navSearch{
+    display: flex;
+    background-color: srgb(240, 245, 255);
+    border: 0;
+    border-color: transparent;
+    border-radius: 7px;
+    justify-content: center;
+    align-items: center;
+}
+
+#searchBar{
+    width: 600px;
+    height: 40px;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    border-color: transparent;
+    box-shadow: none;
+    padding-left: 10px;
+}
+
+::placeholder{
+    color: black;
+}
+
+.searchIcon{
+    margin-right: 10px;
+    width: 35px;
+    position: relative;
+    left: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    margin-left: 7px;
+}
+
+/* Shortcuts tab */
+
+.shortcuts{
+    width: 80%;
+    height: 170px;
+    margin-top: 15px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.items{
+    height: 75px;
+    width: 85px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 600;
+    font-size: 0.85rem;
+    color: #242729;
+}
+
+.itemSpan{
+    display: flex;
+}
+
+.itemSpan i{
+    margin-left: 5px;
+    margin-top: 3px;
+    transition-duration: 0.5s;
+}
+
+.itemSpan i:hover{
+    transform: rotate(180deg);
+}
+
+.items a{
+    font-size: 15px;
+}
+
+/*Hero Section*/
+
+.heroSec{
+    height: 400px;
+    width: 80%;
+    margin-top: 15px;
+    position: relative;
+
+}
+
+.ad{
+    background-image: url(/images/hero_image.webp);
+    width: 80vw;
+    height: 225px;
+    background-size: cover;
+}
+
+.banks{
+    margin-top: 15px;
+    background-image: url(/images/banks.webp);
+    width: 80vw;
+    height: 150px;
+    background-size: cover;
+}
+
+/*best offers*/
+
+.bestoffer{
+    height: 370px;
+    width: 65%;
+    margin-top: 47px;
+    background-color: whitesmoke;
+    position: relative;
+    right: 145px;
+    display: flex;
+}
+
+.bestphones{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 700;
+    color: #212121;
+    position: absolute;
+    left: 10px;
+    padding-top: 10px;
+}
+
+.mobiles{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.ph{
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid gainsboro;
+}
+
+.ph img{ 
+    height: 210px;
+    width: 170px;
+}
+
+.flightoffer img{
+    margin-left: 35px;
+    width: 270px;
+    height: 380px;
+}
+
+/*Top Deals*/
+
+.topdeals{
+    height: 300px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15px;
+    position: relative; /*Just so that the textdeal class follows topdeals class*/
+    background-color: white;
+}
+
+.textdeal{
+    text-align: left;
+    font-size: 20px;
+    color: #212121;
+    font-weight: 700;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.deal{
+    margin-left: 10px;
+    margin-top: 50px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid gainsboro;
+}
+
+.deal img{
+    height: 170px;
+    width: 120px;
+}
+
+/*poster area*/
+
+.posters{
+    width: 80%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    right: 10px;
+}
+
+.offerposters{
+    margin-left: 3px;
+}
+
+.offerposters img{
+    width: 100%;
+}
+
+
+/*footer*/
+
+footer{
+    margin-top: 40px;
+    color: #878787;
+    text-align: justify;
+}
+
+.foot p{
+    font-size: 0.75rem;
+}
+
+.contactfoot{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 170px;
+    background-color: #212121;
+    padding: 25px;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li a{
+    color: white;
+    font-size: 0.8rem;
+}
+
+.end{
+    display:flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+    background-color: #212121;
+    border-top: 1px solid white;
+    height: 50px;
+    font-size: 0.85rem;
+}
+
+.end a{
+    font-size: 0.85rem;
+    color:white;
+}
